@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "No exclusive content",
+  "version": "0.0.1",
+  "description": "A set of javascript functions that manipulate the DOM to show you the hidden content",
+
+  "permissions": ["activeTab", "contextMenus"],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
